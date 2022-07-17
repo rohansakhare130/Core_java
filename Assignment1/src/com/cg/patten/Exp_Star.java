@@ -1,8 +1,8 @@
-package com.cg.pattern;
+package com.cg.patten;
 
 import java.util.Scanner;
 
-public class ExpStar {
+public class Exp_Star {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
@@ -12,9 +12,6 @@ public class ExpStar {
 			System.out.print("*"+" ");
 		}
 		s.close();
-		
-		
 	}
 
 }
- 

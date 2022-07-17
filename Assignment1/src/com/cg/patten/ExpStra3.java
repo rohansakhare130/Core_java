@@ -1,20 +1,21 @@
-package com.cg.pattern;
+package com.cg.patten;
 
 import java.util.Scanner;
 
-public class ExpStar2 {
+public class ExpStra3 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		int n=s.nextInt();
+		int n = s.nextInt();
 		for(int i=1;i<=n;i++)
 		{
-			for(int j=1;j<=i;j++) {
+			for(int j=1;j<=i;j++)
 				System.out.print("*"+" ");
+			{
+				System.out.println();
+				
 			}
-			System.out.println();
-		}
-		s.close();
+		}s.close();
 	}
 
 }
