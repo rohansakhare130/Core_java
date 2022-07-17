@@ -1,3 +1,7 @@
+/* 1)Fibonacci Series
+Write a program to find the nth term in the Fibonacci series using recursion.
+Note that the first 2 terms in the Fibonacci Series are 0 and 1. */
+
 package com.cg.recursion;
 
 import java.util.Scanner;

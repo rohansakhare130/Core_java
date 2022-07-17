@@ -1,3 +1,7 @@
+/*2)sum of digits
+Write a program to find the sum of digits in a number using recursion.*/
+
+
 package com.cg.recursion;
 
 import java.util.Scanner;
