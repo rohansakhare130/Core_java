@@ -1,5 +1,6 @@
 package com.cg.oop;
 
+
 class A
 {
 	A()
@@ -11,6 +12,7 @@ public class Example1 {
 
 	public static void main(String[] args) {
 		// Creation of an object
+		@SuppressWarnings("unused")
 		A obj = new A();
 		
 
