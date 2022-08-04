@@ -15,13 +15,13 @@ public class CrudUpdate {
 				try 
 				{
 					Connection c = DriverManager.getConnection(dbURL,dbUsername ,dbPassword);
-				String query="UPDATE EMPLOYEE SET NAME=?,EMAIL_ID=?,PASSWORD =?, WHERE ID =?";
+				String query="UPDATE EMPLOYEE SET NAME=?,EMAIL_ID=? WHERE ID =?";
 					PreparedStatement p = c.prepareStatement(query);
 					
 					p.setString(1, "ROSHAN");
 					p.setString(2, "roshan@gmail.com");
-					p.setString(3,"roshan@123");
-					p.setInt(4, 122);
+					//p.setString(3,"roshan@123");
+					p.setInt(3, 122); 
 					int r=p.executeUpdate();
 					//if row>0 means at -least some rows are there
 					if(r>0)
