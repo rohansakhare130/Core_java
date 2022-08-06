@@ -8,9 +8,10 @@ public class program3 {
 		b=6.0;
 		c=a*b;
 		System.out.println("The two no of multiplay " +c);
-	
+		
 		System.out.println("fist no is " +a );
 		System.out.print("second no is " +b );
+		     
 	}
-
+	
 }
