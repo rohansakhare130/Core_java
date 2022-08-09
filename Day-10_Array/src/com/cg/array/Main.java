@@ -8,5 +8,7 @@ public class Main
 	{
 		char c[]= {'a','z'};
 		System.out.println(c.getClass().getName());
+		//System.out.println(c);
+		
 	}
 }
