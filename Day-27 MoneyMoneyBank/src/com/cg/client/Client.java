@@ -1,4 +1,4 @@
-package com.cg.client;
+ package com.cg.client;
 
 import com.cg.application.MMBankFactory;
 import com.cg.application.MMCurrentAcc;
@@ -11,7 +11,7 @@ public class Client {
 
 	public static void main(String[] args) {
 		BankFactory b = new MMBankFactory();
-		CurrentAcc c = new MMCurrentAcc(1245," Rohan Sakhare ",10000,500);
+		CurrentAcc c = new MMCurrentAcc(1245," Rohan Sakhare ",1000,500);
 		SavingAcc s = new MMSavingAcc(1221, " Ashok Raut ",5000,true);
 		System.out.println("Cureent Account: ");
 		c.deposite(c.getAccNo(),c.getAccNm(),c.getAccBa());

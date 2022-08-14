@@ -2,8 +2,10 @@ package com.cg.freamework;
 
 public abstract class SavingAcc extends BankAcc 
 {
+	
 	private boolean isSalaried;
 	static final private float MINBAL=0.0f;
+	//constructor
 	public SavingAcc(int accNo, String accNm, float accBa, boolean isSalaried) {
 		super(accNo, accNm, accBa);
 		this.isSalaried=isSalaried;

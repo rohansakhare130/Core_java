@@ -2,8 +2,9 @@ package com.cg.freamework;
 
 public abstract class CurrentAcc extends BankAcc
 {
+	//fields
 	private final float creditLimit;
-	
+	//constructor
 	public CurrentAcc(int accNo, String accNm, float accBa,float creditLimit )
 	{
 		super(accNo, accNm, accBa);

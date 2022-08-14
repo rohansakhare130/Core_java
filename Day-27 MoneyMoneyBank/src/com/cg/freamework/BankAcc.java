@@ -19,6 +19,7 @@ public abstract class BankAcc
 	}
 	//abstract method withdraw
 	abstract public void withdraw(float accBal);
+	// normal method
 	public void deposite(int accNo, String accNm, float accBa)
 	{
 		System.out.println(accNo+accNm+accBa);
