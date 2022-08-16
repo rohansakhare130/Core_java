@@ -7,7 +7,11 @@ public class AutoBoxing {
 		float x=15.3f; //primitive type
 		Float a=x; // Converting primitive to wrapper class
 		Float f= new Float(10);
+		int b=6;
+		Integer i=b;
+		Integer g= new Integer(10);
 		System.out.println(x+" " +a+ " " +f);
+		System.out.println(b+" " +i+ " " +g);
 
 	}
 
